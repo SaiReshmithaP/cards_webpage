@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:50px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px; 
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.card{
+  width: 230px;
+  height: 140px;
+  border-radius: 12px;
+  padding: 15px;
+  color: white;
+  position: relative;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.chip {
+  width: 30px;
+  height: 25px;
+  background: gold;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+h3 {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.number {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  font-size: 14px;
+}
+.valid {
+  font-size: 12px;
+  text-align: right;
+}
